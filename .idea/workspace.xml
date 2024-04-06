@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="adad429a-04fb-4a2f-a4e1-81f144fabc5e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/client/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/products/ProductFullCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/products/ProductSmallCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/products/ProductsGrid.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/router/AppRouter.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/router/LinkComponent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/router/ProtectedRoute.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/http/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/http/productsAPI.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/http/userAPI.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/auth/AuthPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/catalog/CategoriesCatalogPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/catalog/CreateCategoryPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/main/MainPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/products/CreateProductPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/routes/consts.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/routes/routes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/store/userStore.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/auth/auth.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/auth/auth.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/auth/auth.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/auth/decorators/role.decorator.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/auth/decorators/user.decorator.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/auth/dto/login.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/auth/dto/register.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/auth/enum/role.enum.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/auth/jwt.strategy.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/config/jwt.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/prisma.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/setupTests.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2eUVwBgXKnzDtonyUP89r7j2fYv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/ASB/CatalogApp/client/src/http",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "D:\\ASB\\CatalogApp\\server\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ASB\CatalogApp\client\src\http" />
+      <recent name="D:\ASB\CatalogApp\client\src\routes" />
+      <recent name="D:\ASB\CatalogApp\server\src\auth" />
+      <recent name="D:\ASB\CatalogApp\server\src\auth\dto" />
+      <recent name="D:\ASB\CatalogApp\server\src" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="adad429a-04fb-4a2f-a4e1-81f144fabc5e" name="Changes" comment="" />
+      <created>1711959379496</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711959379496</updated>
+      <workItem from="1711959380548" duration="71731000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
