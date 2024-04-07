@@ -1,4 +1,4 @@
-import {Injectable} from '@nestjs/common';
+import {Injectable, NotFoundException} from '@nestjs/common';
 import {CreateProductDto} from './dto/create-product.dto';
 import {UpdateProductDto} from './dto/update-product.dto';
 import {PrismaService} from "../prisma.service";
@@ -10,6 +10,14 @@ export class ProductsService {
     }
 
     async create(createProductDto: CreateProductDto) {
+        const existingCategory = await this.prisma.categories.findFirst({
+            where: {
+                id: createProductDto.category_id
+            }
+        })
+
+        if(!existingCategory) throw new NotFoundException('No such category');
+
         return this.prisma.products.create({
             data: {
                 product_name: createProductDto.product_name,
@@ -50,7 +58,7 @@ export class ProductsService {
             maxPrice = Number.MAX_SAFE_INTEGER;
         }
 
-        if (minPrice > 0 || maxPrice > 0) {
+        if (minPrice > 0 && maxPrice > 0) {
             whereCondition.price = {
                 gte: minPrice,
                 lte: maxPrice,

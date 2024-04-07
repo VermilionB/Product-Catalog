@@ -31,7 +31,7 @@ export class AuthService {
                 data: {
                     email: dto.email,
                     password: await hash(dto.password),
-                    role_id: +dto.role_id
+                    role_id: dto.role_id
                 }
             });
             const token = await this.issueToken(user.id, user.role_id, user.email);

@@ -11,7 +11,7 @@ export const getAllProducts = async (
         url += `?searchTerm=${searchTerm}`;
     }
     if (categoryId) {
-        url += (searchTerm ? '&' : '?') + `categoryId=${categoryId}`;
+        url += (searchTerm ? '&' : '?') + `categoryId=${+categoryId}`;
     }
     if (minPrice !== undefined && minPrice !== 0) {
         url += (searchTerm || categoryId ? '&' : '?') + `minPrice=${minPrice}`;

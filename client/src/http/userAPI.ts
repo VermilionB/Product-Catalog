@@ -8,9 +8,11 @@ export const getAllRoles = async () => {
 }
 
 export const register = async (email: string, password: string, role_id: string | null) => {
-    const {data} = await $host.post('http://localhost:5000/api/auth/register', {email, password, role_id})
-    localStorage.setItem('token', data.access_token)
-    return jwtDecode<IUser>(data.access_token);
+    if(role_id){
+        const {data} = await $host.post('http://localhost:5000/api/auth/register', {email, password, role_id: +role_id})
+        localStorage.setItem('token', data.access_token)
+        return jwtDecode<IUser>(data.access_token);
+    }
 }
 
 export const login = async (email: string, password: string) => {
